@@ -2,6 +2,9 @@
 build/
 bin/
 obj/
+x64/
+Debug/
+Release/
 
 # IDE files
 .vs/
@@ -9,6 +12,8 @@ obj/
 *.user
 *.suo
 *.sln.docstates
+*.vcxproj.user
+*.vcxproj.filters
 
 # Compiled files
 *.exe
@@ -18,6 +23,8 @@ obj/
 *.o
 *.obj
 *.out
+*.ilk
+*.pdb
 
 # CMake files
 CMakeFiles/
@@ -37,4 +44,9 @@ Makefile
 .Spotlight-V100
 .Trashes
 ehthumbs.db
-Thumbs.db 
+Thumbs.db
+
+# Visual Studio files
+*.sln
+*.vcxproj
+*.vcxproj.filters 
